@@ -1,3 +1,17 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Maven
+log/
+target/
+
 # Folder view configuration files
 .DS_Store
 Desktop.ini
@@ -20,3 +34,7 @@ Thumbs.db
 venv
 node_modules
 .sass-cache
+
+**/.vscode/
+
+
