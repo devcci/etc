@@ -1,6 +1,7 @@
 # Eclipse
 .classpath
 .project
+.factorypath
 .settings/
 
 # Intellij
@@ -10,7 +11,8 @@
 
 # Maven
 log/
-target/
+/target/
+**/target
 
 # Folder view configuration files
 .DS_Store
@@ -35,6 +37,5 @@ venv
 node_modules
 .sass-cache
 
+# VSCode
 **/.vscode/
-
-
